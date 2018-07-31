@@ -119,6 +119,7 @@
     <TypeScriptCompile Include="Scripts\Dynamic Types.ts" />
     <TypeScriptCompile Include="Scripts\grammar.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces.ts" />
+    <TypeScriptCompile Include="Scripts\Modules\ModulesShortcuts.ts" />
     <TypeScriptCompile Include="Scripts\Objects.ts" />
     <TypeScriptCompile Include="Scripts\Using Interfaces\auto.ts" />
   </ItemGroup>
