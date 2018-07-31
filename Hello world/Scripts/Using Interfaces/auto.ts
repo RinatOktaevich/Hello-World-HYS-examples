@@ -25,8 +25,7 @@
         }
 
     }
-
-
+       
     class CustomEngine implements IEngine {
 
         start(callback: (startStatus: boolean, engineType: string) => void) {
@@ -112,7 +111,7 @@
 }
 
 
-module ExtendingAnInterface {
+namespace ExtendingAnInterface {
 
     interface IAutoOptions {
 

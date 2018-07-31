@@ -11,6 +11,11 @@ interface Rectangle {
     w?: number;
 }
 
+//Creating anonim object based on interface
+var rc: Rectangle = {
+    h: 5,
+    w: 9
+};
 
 
 var squareIt = function (
