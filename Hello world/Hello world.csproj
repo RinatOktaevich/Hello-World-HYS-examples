@@ -104,8 +104,10 @@
     </Content>
     <Content Include="Scripts\Car.html" />
     <Content Include="Scripts\Classes.html" />
+    <Content Include="Scripts\Defining Classes\DefaultPage.html" />
     <Content Include="Scripts\Interfaces.html" />
     <Content Include="Scripts\Objects.html" />
+    <Content Include="Scripts\Using Interfaces\default.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,13 +115,18 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\Car.ts" />
     <TypeScriptCompile Include="Scripts\Classes.ts" />
+    <TypeScriptCompile Include="Scripts\Defining Classes\Car.ts" />
     <TypeScriptCompile Include="Scripts\Dynamic Types.ts" />
     <TypeScriptCompile Include="Scripts\grammar.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces.ts" />
     <TypeScriptCompile Include="Scripts\Objects.ts" />
+    <TypeScriptCompile Include="Scripts\Using Interfaces\auto.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\Extending Types\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

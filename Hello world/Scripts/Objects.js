@@ -17,4 +17,3 @@ console.log("SquareIt is " + squareIt({ h: 5, w: 7 }));
 var squareIt2 = function () { return console.log("Square void " + squareIt({ h: 10, w: 2 })); };
 squareIt2();
 //console.log("SquareIt 2 is=>" + squareIt2(2,6)); 
-//# sourceMappingURL=Objects.js.map

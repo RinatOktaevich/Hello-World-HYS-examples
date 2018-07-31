@@ -15,4 +15,3 @@ var p = {
     makeYonger: function () { return _this.age -= 1; },
     greet: function (msg) { return msg + ', ' + _this.name; }
 };
-//# sourceMappingURL=Interfaces.js.map
